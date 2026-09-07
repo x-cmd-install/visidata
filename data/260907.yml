@@ -5,13 +5,13 @@ about:
   head: 1d8a6fc
   archived: false
   latestVersion: "v3.4"
-  collectedAt: 2026-09-07T06:03:55Z
+  collectedAt: 2026-09-07T18:26:13Z
 timeline:
   created: 2016-10-27
   lastCommit: 2026-08-27
   lastRelease: 2026-07-01
 popularity:
-  star: 9264
+  star: 9265
   watcher: 70
   fork: 362
   release: 48
@@ -86,7 +86,7 @@ total:
   commit: 8748
 ---
 path: /home/runner/.x-repo/github.com/saulpw/visidata
-collectedAt: 2026-09-07T06:04:00Z
+collectedAt: 2026-09-07T18:26:18Z
 loc:
   Python:
     code: 33375
@@ -279,7 +279,7 @@ checks:
       - 'Warn: 0 commits out of 28 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T06:04:02+00:00
+  collectedAt: 2026-09-07T18:26:20+00:00
   platform:
     darwin/arm64:
       name:  null
