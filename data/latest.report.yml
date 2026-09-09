@@ -7,7 +7,7 @@ about:
   latestVersion: "v3.4"
   latestRelease: "v3.4"
   latestPrerelease: "v2.-4.0"
-  collectedAt: 2026-09-09T06:24:28Z
+  collectedAt: 2026-09-09T20:39:15Z
 timeline:
   created: 2016-10-27
   lastCommit: 2026-08-27
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-07-01
   lastPrerelease: 2020-07-28
 popularity:
-  star: 9265
+  star: 9266
   watcher: 70
   fork: 362
   release: 48
@@ -90,7 +90,7 @@ total:
   commit: 8748
 ---
 path: /home/runner/.x-repo/github.com/saulpw/visidata
-collectedAt: 2026-09-09T06:24:34Z
+collectedAt: 2026-09-09T20:39:20Z
 loc:
   Python:
     code: 33375
