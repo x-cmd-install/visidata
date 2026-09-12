@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-12 | 0 | 4 | 11 | 1 | 12 | 7 |
-| last60d | 2026-07-13 | 0 | 9 | 12 | 5 | 19 | 11 |
-| 90d | 2026-06-13 | 1 | 18 | 14 | 15 | 28 | 60 |
-| last180d | 2026-03-15 | 1 | 78 | 15 | 43 | 38 | 191 |
-| 360d | 2025-09-16 | 1 | 150 | 17 | 84 | 49 | 533 |
-| last720d | 2024-09-21 | 4 | 273 | 17 | 204 | 61 | 995 |
+| 30d | 2026-08-13 | 0 | 4 | 11 | 1 | 12 | 7 |
+| last60d | 2026-07-14 | 0 | 8 | 12 | 5 | 18 | 11 |
+| 90d | 2026-06-14 | 1 | 17 | 14 | 15 | 28 | 60 |
+| last180d | 2026-03-16 | 1 | 78 | 15 | 41 | 38 | 191 |
+| 360d | 2025-09-17 | 1 | 150 | 17 | 83 | 49 | 533 |
+| last720d | 2024-09-22 | 4 | 272 | 17 | 204 | 61 | 993 |
 
 ## Distribution status
 
@@ -90,4 +90,4 @@ Install metadata for visidata lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T18:30:54Z._
+_Snapshot: `data/card/260912.yml` · 2026-09-12T06:02:30Z._
