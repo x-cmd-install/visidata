@@ -30,9 +30,9 @@ Overall score: **5.5 / 10**
 
 Lowest-scoring checks:
 
-- **Pinned-Dependencies** (-1/10) — internal error: internal error: invalid Dockerfile: Syntax error - can't find = in "#". Must be of the form: name=value
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Pinned-Dependencies** (-1/10) — internal error: internal error: invalid Dockerfile: Syntax error - can't find = in "#". Must be of the form: name=value
 
 ## Source
 
@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 9,278 · **Forks**: 362 · **Open issues**: 1,718 · **Contributors**: 119
+- **Stars**: 9,280 · **Forks**: 362 · **Open issues**: 1,718 · **Contributors**: 119
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-16 | 0 | 2 | 8 | 2 | 11 | 3 |
-| last60d | 2026-07-17 | 0 | 6 | 14 | 5 | 16 | 10 |
-| 90d | 2026-06-17 | 1 | 17 | 16 | 15 | 26 | 51 |
-| last180d | 2026-03-19 | 1 | 76 | 16 | 41 | 36 | 168 |
-| 360d | 2025-09-20 | 1 | 148 | 19 | 83 | 48 | 529 |
-| last720d | 2024-09-25 | 4 | 263 | 19 | 203 | 60 | 982 |
+| 30d | 2026-08-17 | 0 | 2 | 7 | 2 | 11 | 3 |
+| last60d | 2026-07-18 | 0 | 6 | 14 | 5 | 16 | 10 |
+| 90d | 2026-06-18 | 1 | 16 | 16 | 15 | 26 | 51 |
+| last180d | 2026-03-20 | 1 | 75 | 16 | 41 | 36 | 168 |
+| 360d | 2025-09-21 | 1 | 148 | 19 | 83 | 48 | 529 |
+| last720d | 2024-09-26 | 4 | 263 | 19 | 203 | 60 | 980 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for visidata lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260915.yml` · 2026-09-15T06:37:38Z._
+_Snapshot: `data/card/260916.yml` · 2026-09-16T06:38:09Z._
