@@ -4,7 +4,7 @@
 
 A terminal spreadsheet multitool for discovering and arranging data
 
-![visidata](https://repo.x-cmd.io/visidata.svg)
+[![x-cmd/install — visidata Code Quality Monitoring Repo Card](https://repo.x-cmd.io/visidata.svg)](https://x-cmd.com/install/visidata)
 
 ## Install
 
@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 9,282 · **Forks**: 363 · **Open issues**: 1,718 · **Contributors**: 120
+- **Stars**: 9,288 · **Forks**: 363 · **Open issues**: 1,718 · **Contributors**: 120
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 2 | 7 | 1 | 11 | 6 |
-| last60d | 2026-07-20 | 0 | 6 | 13 | 4 | 16 | 13 |
-| 90d | 2026-06-20 | 1 | 15 | 16 | 14 | 26 | 54 |
-| last180d | 2026-03-22 | 1 | 73 | 16 | 40 | 36 | 171 |
-| 360d | 2025-09-23 | 1 | 147 | 19 | 81 | 47 | 532 |
-| last720d | 2024-09-28 | 4 | 263 | 19 | 203 | 60 | 982 |
+| 30d | 2026-08-21 | 0 | 1 | 7 | 1 | 10 | 3 |
+| last60d | 2026-07-22 | 0 | 6 | 13 | 4 | 16 | 13 |
+| 90d | 2026-06-22 | 1 | 14 | 15 | 14 | 26 | 22 |
+| last180d | 2026-03-24 | 1 | 72 | 16 | 39 | 35 | 153 |
+| 360d | 2025-09-25 | 1 | 145 | 19 | 81 | 47 | 529 |
+| last720d | 2024-09-30 | 4 | 263 | 19 | 202 | 60 | 981 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for visidata lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T06:25:30Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T06:22:25Z._
