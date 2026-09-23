@@ -4,7 +4,7 @@
 
 A terminal spreadsheet multitool for discovering and arranging data
 
-[![x-cmd/install — visidata Code Quality Monitoring Repo Card](https://repo.x-cmd.io/visidata.svg)](https://x-cmd.com/install/visidata)
+[![x-cmd/install — visidata Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/visidata.svg)](https://x-cmd.com/install/visidata)
 
 ## Install
 
@@ -26,13 +26,13 @@ Total: **51,848** lines of code across **319** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **5.5 / 10**
+Overall score: **6.2 / 10**
 
 Lowest-scoring checks:
 
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Pinned-Dependencies** (-1/10) — internal error: internal error: invalid Dockerfile: Syntax error - can't find = in "#". Must be of the form: name=value
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
 
@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 9,290 · **Forks**: 364 · **Open issues**: 1,718 · **Contributors**: 120
+- **Stars**: 9,293 · **Forks**: 366 · **Open issues**: 1,718 · **Contributors**: 120
 
 ## Totals (cumulative)
 
-- **Releases**: 48 · **Merged PRs**: 842 · **Open PRs**: 19 · **Closed issues**: 1648 · **Open issues**: 70 · **Commits**: 8752
+- **Releases**: 48 · **Merged PRs**: 842 · **Open PRs**: 20 · **Closed issues**: 1648 · **Open issues**: 70 · **Commits**: 8752
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 0 | 7 | 1 | 10 | 4 |
-| last60d | 2026-07-24 | 0 | 6 | 13 | 4 | 12 | 14 |
-| 90d | 2026-06-24 | 1 | 14 | 15 | 14 | 26 | 23 |
-| last180d | 2026-03-26 | 1 | 71 | 16 | 39 | 35 | 154 |
-| 360d | 2025-09-27 | 1 | 145 | 19 | 81 | 47 | 530 |
-| last720d | 2024-10-02 | 4 | 263 | 19 | 201 | 60 | 969 |
+| 30d | 2026-08-24 | 0 | 0 | 8 | 1 | 10 | 4 |
+| last60d | 2026-07-25 | 0 | 6 | 14 | 4 | 12 | 14 |
+| 90d | 2026-06-25 | 1 | 14 | 16 | 14 | 26 | 23 |
+| last180d | 2026-03-27 | 1 | 69 | 17 | 39 | 35 | 154 |
+| 360d | 2025-09-28 | 1 | 145 | 20 | 81 | 47 | 530 |
+| last720d | 2024-10-03 | 4 | 262 | 20 | 201 | 60 | 962 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for visidata lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T06:36:16Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T06:36:51Z._

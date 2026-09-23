@@ -4,7 +4,7 @@
 
 A terminal spreadsheet multitool for discovering and arranging data
 
-[![x-cmd/install — visidata Code Quality Monitoring Repo Card](https://repo.x-cmd.io/visidata.svg?lang=zh)](https://x-cmd.com/install/visidata)
+[![x-cmd/install — visidata Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/visidata.svg?lang=zh)](https://x-cmd.com/install/visidata)
 
 ## 安装
 
@@ -26,13 +26,13 @@ x install visidata
 
 ## OpenSSF Scorecard 评分
 
-总评分: **5.5 / 10**
+总评分: **6.2 / 10**
 
 评分最低的几项:
 
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Pinned-Dependencies** (-1/10) — internal error: internal error: invalid Dockerfile: Syntax error - can't find = in "#". Must be of the form: name=value
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
 
@@ -47,22 +47,22 @@ x install visidata
 
 ## 流行度
 
-- **Star**: 9,290 · **Fork**: 364 · **开放 issue**: 1,718 · **贡献者**: 120
+- **Star**: 9,293 · **Fork**: 366 · **开放 issue**: 1,718 · **贡献者**: 120
 
 ## 累计统计
 
-- **发布数**: 48 · **已合并 PR**: 842 · **开放 PR**: 19 · **已关闭 issue**: 1648 · **开放 issue**: 70 · **提交数**: 8752
+- **发布数**: 48 · **已合并 PR**: 842 · **开放 PR**: 20 · **已关闭 issue**: 1648 · **开放 issue**: 70 · **提交数**: 8752
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 0 | 7 | 1 | 10 | 4 |
-| last60d | 2026-07-24 | 0 | 6 | 13 | 4 | 12 | 14 |
-| 90d | 2026-06-24 | 1 | 14 | 15 | 14 | 26 | 23 |
-| last180d | 2026-03-26 | 1 | 71 | 16 | 39 | 35 | 154 |
-| 360d | 2025-09-27 | 1 | 145 | 19 | 81 | 47 | 530 |
-| last720d | 2024-10-02 | 4 | 263 | 19 | 201 | 60 | 969 |
+| 30d | 2026-08-24 | 0 | 0 | 8 | 1 | 10 | 4 |
+| last60d | 2026-07-25 | 0 | 6 | 14 | 4 | 12 | 14 |
+| 90d | 2026-06-25 | 1 | 14 | 16 | 14 | 26 | 23 |
+| last180d | 2026-03-27 | 1 | 69 | 17 | 39 | 35 | 154 |
+| 360d | 2025-09-28 | 1 | 145 | 20 | 81 | 47 | 530 |
+| last720d | 2024-10-03 | 4 | 262 | 20 | 201 | 60 | 962 |
 
 ## 改进这些数据
 
@@ -73,4 +73,4 @@ visidata 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T06:36:18Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T06:36:52Z._
