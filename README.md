@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.4` (2026-07-01)
-- **Last commit**: 2026-09-21
+- **Last commit**: 2026-09-23
 
 ## Popularity
 
-- **Stars**: 9,293 · **Forks**: 366 · **Open issues**: 1,718 · **Contributors**: 120
+- **Stars**: 9,294 · **Forks**: 367 · **Open issues**: 1,718 · **Contributors**: 121
 
 ## Totals (cumulative)
 
-- **Releases**: 48 · **Merged PRs**: 842 · **Open PRs**: 20 · **Closed issues**: 1648 · **Open issues**: 70 · **Commits**: 8752
+- **Releases**: 48 · **Merged PRs**: 843 · **Open PRs**: 19 · **Closed issues**: 1649 · **Open issues**: 69 · **Commits**: 8753
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-24 | 0 | 0 | 8 | 1 | 10 | 4 |
-| last60d | 2026-07-25 | 0 | 6 | 14 | 4 | 12 | 14 |
-| 90d | 2026-06-25 | 1 | 14 | 16 | 14 | 26 | 23 |
-| last180d | 2026-03-27 | 1 | 69 | 17 | 39 | 35 | 154 |
-| 360d | 2025-09-28 | 1 | 145 | 20 | 81 | 47 | 530 |
-| last720d | 2024-10-03 | 4 | 262 | 20 | 201 | 60 | 962 |
+| 30d | 2026-08-25 | 0 | 1 | 7 | 2 | 8 | 5 |
+| last60d | 2026-07-26 | 0 | 7 | 13 | 5 | 11 | 15 |
+| 90d | 2026-06-26 | 1 | 15 | 14 | 15 | 25 | 24 |
+| last180d | 2026-03-28 | 1 | 70 | 16 | 40 | 34 | 155 |
+| 360d | 2025-09-29 | 1 | 146 | 19 | 82 | 46 | 531 |
+| last720d | 2024-10-04 | 4 | 262 | 19 | 201 | 59 | 963 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for visidata lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260923.yml` · 2026-09-23T06:36:51Z._
+_Snapshot: `data/card/260924.yml` · 2026-09-24T06:01:17Z._
