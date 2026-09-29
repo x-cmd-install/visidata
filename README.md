@@ -14,11 +14,11 @@ x install visidata
 
 ## Code insight
 
-Total: **51,848** lines of code across **319** files in the top 5 languages.
+Total: **51,872** lines of code across **319** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 33,531 | 1,291 | 7,789 | 296 |
+| Python | 33,547 | 1,291 | 7,791 | 296 |
 | Svg | 11,417 | 3 | 120 | 3 |
 | Yaml | 1,364 | 0 | 2 | 2 |
 | ReStructuredText | 1,305 | 0 | 653 | 17 |
@@ -43,7 +43,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.4` (2026-07-01)
-- **Last commit**: 2026-09-23
+- **Last commit**: 2026-09-29
 
 ## Popularity
 
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 48 · **Merged PRs**: 843 · **Open PRs**: 19 · **Closed issues**: 1649 · **Open issues**: 69 · **Commits**: 8753
+- **Releases**: 48 · **Merged PRs**: 843 · **Open PRs**: 19 · **Closed issues**: 1650 · **Open issues**: 68 · **Commits**: 8760
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-29 | 0 | 1 | 4 | 2 | 4 | 5 |
-| last60d | 2026-07-30 | 0 | 7 | 13 | 5 | 11 | 13 |
-| 90d | 2026-06-30 | 1 | 13 | 14 | 12 | 24 | 19 |
-| last180d | 2026-04-01 | 1 | 67 | 16 | 40 | 34 | 151 |
-| 360d | 2025-10-03 | 1 | 146 | 19 | 81 | 46 | 524 |
-| last720d | 2024-10-08 | 4 | 262 | 19 | 199 | 59 | 938 |
+| 30d | 2026-08-30 | 0 | 1 | 4 | 2 | 4 | 12 |
+| last60d | 2026-07-31 | 0 | 7 | 13 | 4 | 11 | 20 |
+| 90d | 2026-07-01 | 1 | 12 | 14 | 10 | 20 | 26 |
+| last180d | 2026-04-02 | 1 | 67 | 16 | 41 | 33 | 158 |
+| 360d | 2025-10-04 | 1 | 146 | 19 | 82 | 45 | 531 |
+| last720d | 2024-10-09 | 4 | 261 | 19 | 199 | 58 | 944 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for visidata lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260928.yml` · 2026-09-28T06:52:02Z._
+_Snapshot: `data/card/260929.yml` · 2026-09-29T07:03:14Z._
