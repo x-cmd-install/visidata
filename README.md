@@ -26,12 +26,12 @@ Total: **51,872** lines of code across **319** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **6.2 / 10**
+Overall score: **5.9 / 10**
 
 Lowest-scoring checks:
 
+- **Code-Review** (4/10) — Found 12/27 approved changesets -- score normalized to 4
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Pinned-Dependencies** (-1/10) — internal error: internal error: invalid Dockerfile: Syntax error - can't find = in "#". Must be of the form: name=value
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 9,311 · **Forks**: 369 · **Open issues**: 1,718 · **Contributors**: 121
+- **Stars**: 9,315 · **Forks**: 369 · **Open issues**: 1,718 · **Contributors**: 121
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 0 | 1 | 4 | 2 | 4 | 12 |
-| last60d | 2026-07-31 | 0 | 7 | 13 | 4 | 11 | 20 |
-| 90d | 2026-07-01 | 1 | 12 | 14 | 10 | 20 | 26 |
-| last180d | 2026-04-02 | 1 | 67 | 16 | 41 | 33 | 158 |
-| 360d | 2025-10-04 | 1 | 146 | 19 | 82 | 45 | 531 |
-| last720d | 2024-10-09 | 4 | 261 | 19 | 199 | 58 | 944 |
+| 30d | 2026-08-31 | 0 | 1 | 4 | 2 | 4 | 12 |
+| last60d | 2026-08-01 | 0 | 6 | 13 | 4 | 11 | 20 |
+| 90d | 2026-07-02 | 0 | 11 | 14 | 9 | 20 | 26 |
+| last180d | 2026-04-03 | 1 | 67 | 16 | 41 | 33 | 158 |
+| 360d | 2025-10-05 | 1 | 146 | 19 | 82 | 45 | 531 |
+| last720d | 2024-10-10 | 4 | 259 | 19 | 199 | 58 | 943 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for visidata lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260929.yml` · 2026-09-29T07:03:14Z._
+_Snapshot: `data/card/260930.yml` · 2026-09-30T07:00:14Z._
