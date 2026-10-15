@@ -14,15 +14,15 @@ x install visidata
 
 ## 代码洞察
 
-合计: **51,872** 行代码（覆盖前 5 种语言、共 **319** 个文件）。
+合计: **52,043** 行代码（覆盖前 5 种语言、共 **322** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Python | 33,547 | 1,291 | 7,791 | 296 |
+| Python | 33,705 | 1,297 | 7,842 | 299 |
 | Svg | 11,417 | 3 | 120 | 3 |
 | Yaml | 1,364 | 0 | 2 | 2 |
 | ReStructuredText | 1,305 | 0 | 653 | 17 |
-| Bitbake | 1,098 | 0 | 3 | 1 |
+| Bitbake | 1,100 | 0 | 3 | 1 |
 
 ## OpenSSF Scorecard 评分
 
@@ -32,7 +32,7 @@ x install visidata
 
 - **Code-Review** (4/10) — Found 12/27 approved changesets -- score normalized to 4
 - **Pinned-Dependencies** (-1/10) — internal error: internal error: invalid Dockerfile: Syntax error - can't find = in "#". Must be of the form: name=value
-- **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
 
@@ -43,26 +43,26 @@ x install visidata
 ## 发布
 
 - **最新版本**: `v3.4` (2026-07-01)
-- **最近提交**: 2026-09-29
+- **最近提交**: 2026-10-15
 
 ## 流行度
 
-- **Star**: 9,340 · **Fork**: 374 · **开放 issue**: 1,722 · **贡献者**: 121
+- **Star**: 9,343 · **Fork**: 374 · **开放 issue**: 1,722 · **贡献者**: 125
 
 ## 累计统计
 
-- **发布数**: 48 · **已合并 PR**: 843 · **开放 PR**: 22 · **已关闭 issue**: 1653 · **开放 issue**: 69 · **提交数**: 8760
+- **发布数**: 48 · **已合并 PR**: 844 · **开放 PR**: 18 · **已关闭 issue**: 1655 · **开放 issue**: 67 · **提交数**: 8773
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-14 | 0 | 1 | 3 | 0 | 4 | 9 |
-| last60d | 2026-08-15 | 0 | 3 | 14 | 6 | 11 | 16 |
-| 90d | 2026-07-16 | 0 | 7 | 17 | 9 | 17 | 22 |
-| last180d | 2026-04-17 | 1 | 60 | 19 | 43 | 34 | 149 |
-| 360d | 2025-10-19 | 1 | 141 | 22 | 82 | 46 | 529 |
-| last720d | 2024-10-24 | 3 | 251 | 22 | 186 | 57 | 919 |
+| 30d | 2026-09-15 | 0 | 2 | 1 | 2 | 2 | 22 |
+| last60d | 2026-08-16 | 0 | 4 | 8 | 8 | 9 | 29 |
+| 90d | 2026-07-17 | 0 | 8 | 13 | 11 | 14 | 35 |
+| last180d | 2026-04-18 | 1 | 61 | 15 | 45 | 32 | 162 |
+| 360d | 2025-10-20 | 1 | 142 | 18 | 84 | 44 | 542 |
+| last720d | 2024-10-25 | 3 | 252 | 18 | 188 | 55 | 932 |
 
 ## 改进这些数据
 
@@ -73,4 +73,4 @@ visidata 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261014.yml` · 2026-10-14T06:08:09Z._
+_数据快照: `data/card/261015.yml` · 2026-10-15T05:52:04Z._
