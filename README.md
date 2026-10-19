@@ -14,15 +14,15 @@ x install visidata
 
 ## Code insight
 
-Total: **52,836** lines of code across **329** files in the top 5 languages.
+Total: **53,179** lines of code across **333** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 34,462 | 1,305 | 8,056 | 306 |
+| Python | 34,803 | 1,302 | 8,134 | 310 |
 | Svg | 11,417 | 3 | 120 | 3 |
 | Yaml | 1,364 | 0 | 2 | 2 |
 | ReStructuredText | 1,305 | 0 | 653 | 17 |
-| Bitbake | 1,129 | 0 | 3 | 1 |
+| Bitbake | 1,131 | 0 | 3 | 1 |
 
 ## OpenSSF Scorecard
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.4` (2026-07-01)
-- **Last commit**: 2026-10-18
+- **Last commit**: 2026-10-19
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 9,356 · **Forks**: 374 · **Open issues**: 1,723 · **Contributors**: 129
+- **Stars**: 9,372 · **Forks**: 374 · **Open issues**: 1,723 · **Contributors**: 129
 
 ## Totals (cumulative)
 
-- **Releases**: 48 · **Merged PRs**: 863 · **Open PRs**: 7 · **Closed issues**: 1681 · **Open issues**: 42 · **Commits**: 8816
+- **Releases**: 48 · **Merged PRs**: 867 · **Open PRs**: 7 · **Closed issues**: 1692 · **Open issues**: 31 · **Commits**: 8826
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-18 | 0 | 11 | 2 | 3 | 2 | 51 |
-| last60d | 2026-08-19 | 0 | 18 | 4 | 13 | 4 | 68 |
-| 90d | 2026-07-20 | 0 | 26 | 4 | 19 | 6 | 78 |
-| last180d | 2026-04-21 | 1 | 77 | 5 | 67 | 11 | 199 |
-| 360d | 2025-10-23 | 1 | 161 | 7 | 108 | 21 | 583 |
-| last720d | 2024-10-28 | 3 | 270 | 7 | 212 | 31 | 975 |
+| 30d | 2026-09-19 | 0 | 15 | 2 | 3 | 2 | 61 |
+| last60d | 2026-08-20 | 0 | 21 | 4 | 14 | 3 | 78 |
+| 90d | 2026-07-21 | 0 | 30 | 4 | 22 | 3 | 88 |
+| last180d | 2026-04-22 | 1 | 80 | 5 | 73 | 4 | 209 |
+| 360d | 2025-10-24 | 1 | 165 | 7 | 117 | 12 | 593 |
+| last720d | 2024-10-29 | 3 | 274 | 7 | 223 | 20 | 984 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for visidata lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261018.yml` · 2026-10-18T05:37:51Z._
+_Snapshot: `data/card/261019.yml` · 2026-10-19T05:58:40Z._
