@@ -14,11 +14,11 @@ x install visidata
 
 ## Code insight
 
-Total: **53,470** lines of code across **333** files in the top 5 languages.
+Total: **53,487** lines of code across **333** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 35,062 | 1,303 | 8,190 | 310 |
+| Python | 35,079 | 1,303 | 8,193 | 310 |
 | Svg | 11,417 | 3 | 120 | 3 |
 | Yaml | 1,364 | 0 | 2 | 2 |
 | ReStructuredText | 1,305 | 0 | 653 | 17 |
@@ -26,11 +26,11 @@ Total: **53,470** lines of code across **333** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **5.9 / 10**
+Overall score: **5.4 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (4/10) — Found 12/27 approved changesets -- score normalized to 4
+- **Packaging** (-1/10) — packaging workflow not detected
 - **Pinned-Dependencies** (-1/10) — internal error: internal error: invalid Dockerfile: Syntax error - can't find = in "#". Must be of the form: name=value
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 9,400 · **Forks**: 374 · **Open issues**: 1,723 · **Contributors**: 128
+- **Stars**: 9,412 · **Forks**: 374 · **Open issues**: 1,723 · **Contributors**: 128
 
 ## Totals (cumulative)
 
-- **Releases**: 48 · **Merged PRs**: 877 · **Open PRs**: 6 · **Closed issues**: 1702 · **Open issues**: 21 · **Commits**: 8851
+- **Releases**: 48 · **Merged PRs**: 878 · **Open PRs**: 7 · **Closed issues**: 1703 · **Open issues**: 20 · **Commits**: 8853
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-21 | 0 | 24 | 3 | 3 | 2 | 85 |
-| last60d | 2026-08-22 | 0 | 30 | 5 | 13 | 3 | 102 |
-| 90d | 2026-07-23 | 0 | 39 | 5 | 21 | 3 | 112 |
-| last180d | 2026-04-24 | 1 | 87 | 6 | 72 | 4 | 233 |
-| 360d | 2025-10-26 | 1 | 175 | 6 | 120 | 9 | 618 |
-| last720d | 2024-10-31 | 3 | 283 | 6 | 228 | 14 | 1009 |
+| 30d | 2026-09-22 | 0 | 24 | 4 | 3 | 2 | 87 |
+| last60d | 2026-08-23 | 0 | 30 | 6 | 13 | 3 | 104 |
+| 90d | 2026-07-24 | 0 | 40 | 6 | 18 | 3 | 114 |
+| last180d | 2026-04-25 | 1 | 87 | 7 | 72 | 4 | 235 |
+| 360d | 2025-10-27 | 1 | 176 | 7 | 120 | 9 | 620 |
+| last720d | 2024-11-01 | 3 | 284 | 7 | 229 | 13 | 1011 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for visidata lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261021.yml` · 2026-10-21T05:56:26Z._
+_Snapshot: `data/card/261022.yml` · 2026-10-22T06:01:11Z._
