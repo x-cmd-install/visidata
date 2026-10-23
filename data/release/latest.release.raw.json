@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 144693,
       "digest": "sha256:e221208673bf93312bb1d2aa1c3e446d49ae37072e5d3ff8af72340613c021c4",
-      "download_count": 7,
+      "download_count": 9,
       "created_at": "2026-10-17T22:45:00Z",
       "updated_at": "2026-10-17T22:45:00Z",
       "browser_download_url": "https://github.com/saulpw/visidata/releases/download/v3.4/man.md"
