@@ -1,28 +1,35 @@
-- repo: manjaro_unstable
-  subrepo: extra
+- repo: pld
   srcname: visidata
-  binname: visidata
   visiblename: visidata
   version: "3.4"
   origversion: 3.4-1
   status: outdated
-  summary: Terminal spreadsheet multitool for discovering and arranging data
-  licenses:
-    - GPL-3.0-only
-- repo: kali_rolling
-  subrepo: main
+- repo: pureos_amber
+  subrepo: amber/main
   srcname: visidata
   binnames:
     - visidata
   visiblename: visidata
-  version: "3.4"
-  origversion: 3.4-1
+  version: 1.5.2
+  origversion: 1.5.2-1
   status: outdated
   maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
     - anja.kefala@gmail.com
   categories:
-    - misc
+    - devel
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: visidata
+  binnames:
+    - visidata
+  visiblename: visidata
+  version: 2.2.1
+  origversion: 2.2.1-1
+  status: outdated
+  maintainers:
+    - anja.kefala@gmail.com
+  categories:
+    - devel
 - repo: alpine_edge
   subrepo: testing
   srcname: visidata
@@ -233,17 +240,6 @@
     - GPL-3.0-only
   categories:
     - Unspecified
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: visidata
-  binname: visidata
-  visiblename: visidata
-  version: "3.4"
-  origversion: 3.4-1
-  status: outdated
-  summary: Terminal spreadsheet multitool for discovering and arranging data
-  licenses:
-    - GPL-3.0-only
 - repo: fedora_40
   subrepo: release
   srcname: visidata
@@ -305,21 +301,6 @@
   categories:
     - Unspecified
 - repo: fedora_42
-  subrepo: updates
-  srcname: visidata
-  binnames:
-    - visidata
-    - python3-visidata
-  visiblename: visidata
-  version: "3.3"
-  origversion: 3.3-1.fc42
-  status: outdated
-  summary: Terminal interface for exploring and arranging tabular data
-  licenses:
-    - GPL-3.0-only
-  categories:
-    - Unspecified
-- repo: fedora_42
   subrepo: release
   srcname: visidata
   binnames:
@@ -329,6 +310,21 @@
   version: 3.1.1
   origversion: 3.1.1-2.fc42
   status: legacy
+  summary: Terminal interface for exploring and arranging tabular data
+  licenses:
+    - GPL-3.0-only
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: updates
+  srcname: visidata
+  binnames:
+    - visidata
+    - python3-visidata
+  visiblename: visidata
+  version: "3.3"
+  origversion: 3.3-1.fc42
+  status: outdated
   summary: Terminal interface for exploring and arranging tabular data
   licenses:
     - GPL-3.0-only
@@ -403,11 +399,47 @@
 - repo: homebrew
   srcname: visidata
   visiblename: visidata
-  version: "3.4"
+  version: "3.5"
   origversion: null
+  status: newest
+  summary: Terminal spreadsheet multitool for discovering and arranging data
+- repo: kali_rolling
+  subrepo: main
+  srcname: visidata
+  binnames:
+    - visidata
+  visiblename: visidata
+  version: "3.4"
+  origversion: 3.4-1
+  status: outdated
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - anja.kefala@gmail.com
+  categories:
+    - misc
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: visidata
+  binname: visidata
+  visiblename: visidata
+  version: "3.4"
+  origversion: 3.4-1
   status: outdated
   summary: Terminal spreadsheet multitool for discovering and arranging data
+  licenses:
+    - GPL-3.0-only
 - repo: manjaro_testing
+  subrepo: extra
+  srcname: visidata
+  binname: visidata
+  visiblename: visidata
+  version: "3.4"
+  origversion: 3.4-1
+  status: outdated
+  summary: Terminal spreadsheet multitool for discovering and arranging data
+  licenses:
+    - GPL-3.0-only
+- repo: manjaro_unstable
   subrepo: extra
   srcname: visidata
   binname: visidata
@@ -554,38 +586,6 @@
     - anja.kefala@gmail.com
   categories:
     - misc
-- repo: pld
-  srcname: visidata
-  visiblename: visidata
-  version: "3.4"
-  origversion: 3.4-1
-  status: outdated
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: visidata
-  binnames:
-    - visidata
-  visiblename: visidata
-  version: 1.5.2
-  origversion: 1.5.2-1
-  status: outdated
-  maintainers:
-    - anja.kefala@gmail.com
-  categories:
-    - devel
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: visidata
-  binnames:
-    - visidata
-  visiblename: visidata
-  version: 2.2.1
-  origversion: 2.2.1-1
-  status: outdated
-  maintainers:
-    - anja.kefala@gmail.com
-  categories:
-    - devel
 - repo: pureos_landing
   subrepo: landing/main
   srcname: visidata
@@ -788,9 +788,9 @@
 - repo: wikidata
   srcname: Q61101023
   visiblename: VisiData
-  version: "3.4"
+  version: "3.5"
   origversion: null
-  status: outdated
+  status: newest
   summary: software for for exploring and manipulating data
   licenses:
     - GNU General Public License, version 3.0
