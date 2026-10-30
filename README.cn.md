@@ -48,7 +48,7 @@ x install visidata
 
 ## 流行度
 
-- **Star**: 9,428 · **Fork**: 377 · **开放 issue**: 1,724 · **贡献者**: 128
+- **Star**: 9,431 · **Fork**: 377 · **开放 issue**: 1,724 · **贡献者**: 128
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install visidata
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-29 | 1 | 27 | 2 | 6 | 0 | 127 |
-| last60d | 2026-08-30 | 1 | 32 | 2 | 12 | 0 | 148 |
-| 90d | 2026-07-31 | 1 | 45 | 2 | 21 | 0 | 162 |
-| last180d | 2026-05-02 | 2 | 91 | 2 | 77 | 0 | 279 |
-| 360d | 2025-11-03 | 2 | 181 | 2 | 128 | 0 | 667 |
-| last720d | 2024-11-08 | 4 | 284 | 2 | 242 | 0 | 1049 |
+| 30d | 2026-09-30 | 1 | 27 | 2 | 6 | 0 | 127 |
+| last60d | 2026-08-31 | 1 | 32 | 2 | 12 | 0 | 148 |
+| 90d | 2026-08-01 | 1 | 44 | 2 | 21 | 0 | 162 |
+| last180d | 2026-05-03 | 2 | 91 | 2 | 77 | 0 | 279 |
+| 360d | 2025-11-04 | 2 | 181 | 2 | 128 | 0 | 667 |
+| last720d | 2024-11-09 | 4 | 284 | 2 | 241 | 0 | 1049 |
 
 ## Release 资产
 
@@ -73,7 +73,7 @@ x install visidata
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/visidata) 上共有 **62** 个发行版报告此项目。**3** 个 ✅ 已是最新上游版本，**55** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/visidata) 上共有 **62** 个发行版报告此项目。**5** 个 ✅ 已是最新上游版本，**53** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -83,7 +83,7 @@ x install visidata
 | Ubuntu 26.04 LTS | `3.0.2` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `3.0.2` | ⚠️ outdated |
 | Arch | `3.5` | ✅ latest |
-| Homebrew | `3.4` | ⚠️ outdated |
+| Homebrew | `3.5` | ✅ latest |
 | Fedora rawhide | `3.3` | ⚠️ outdated |
 | Nix unstable | `3.4` | ⚠️ outdated |
 | Void | `3.3` | ⚠️ outdated |
@@ -98,4 +98,4 @@ visidata 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261029.yml` · 2026-10-29T07:05:20Z._
+_数据快照: `data/card/261030.yml` · 2026-10-30T07:08:58Z._
