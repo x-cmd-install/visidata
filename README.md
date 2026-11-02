@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 9,435 · **Forks**: 377 · **Open issues**: 1,724 · **Contributors**: 128
+- **Stars**: 9,437 · **Forks**: 377 · **Open issues**: 1,724 · **Contributors**: 128
 
 ## Totals (cumulative)
 
-- **Releases**: 49 · **Merged PRs**: 883 · **Open PRs**: 2 · **Closed issues**: 1723 · **Open issues**: 1 · **Commits**: 8902
+- **Releases**: 49 · **Merged PRs**: 883 · **Open PRs**: 3 · **Closed issues**: 1723 · **Open issues**: 1 · **Commits**: 8902
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 1 | 27 | 2 | 5 | 0 | 125 |
-| last60d | 2026-09-02 | 1 | 32 | 2 | 12 | 0 | 142 |
-| 90d | 2026-08-03 | 1 | 44 | 2 | 21 | 0 | 161 |
-| last180d | 2026-05-05 | 2 | 89 | 2 | 77 | 0 | 277 |
-| 360d | 2025-11-06 | 2 | 180 | 2 | 128 | 0 | 666 |
-| last720d | 2024-11-11 | 4 | 283 | 2 | 239 | 0 | 1045 |
+| 30d | 2026-10-03 | 1 | 27 | 3 | 2 | 0 | 125 |
+| last60d | 2026-09-03 | 1 | 32 | 3 | 12 | 0 | 142 |
+| 90d | 2026-08-04 | 1 | 43 | 3 | 21 | 0 | 161 |
+| last180d | 2026-05-06 | 2 | 88 | 3 | 77 | 0 | 277 |
+| 360d | 2025-11-07 | 2 | 179 | 3 | 128 | 0 | 666 |
+| last720d | 2024-11-12 | 4 | 282 | 3 | 238 | 0 | 1040 |
 
 ## Release assets
 
@@ -73,7 +73,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **62** distros on [repology.org](https://repology.org/project/visidata). **6** are ✅ on the latest upstream release, **52** are ⚠️ on an older version.
+Reported by **62** distros on [repology.org](https://repology.org/project/visidata). **7** are ✅ on the latest upstream release, **51** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -98,4 +98,4 @@ Install metadata for visidata lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T07:18:38Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T07:39:58Z._
