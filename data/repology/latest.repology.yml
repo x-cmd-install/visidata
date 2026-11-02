@@ -1,3 +1,51 @@
+- repo: nix_stable_24_11
+  srcname: visidata
+  visiblename: visidata
+  version: 3.1.1
+  origversion: null
+  status: outdated
+  summary: Interactive terminal multitool for tabular data
+  maintainers:
+    - 7c6f434c@mail.ru
+    - markus1189@gmail.com
+  licenses:
+    - GPL-3.0
+- repo: kali_rolling
+  subrepo: main
+  srcname: visidata
+  binnames:
+    - visidata
+  visiblename: visidata
+  version: "3.4"
+  origversion: 3.4-1
+  status: outdated
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - anja.kefala@gmail.com
+  categories:
+    - misc
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: visidata
+  binname: visidata
+  visiblename: visidata
+  version: 2.11.1
+  origversion: 2.11.1-1
+  status: outdated
+  summary: Terminal spreadsheet multitool for discovering and arranging data
+  licenses:
+    - GPL3
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: visidata
+  binname: visidata
+  visiblename: visidata
+  version: 2.11.1
+  origversion: 2.11.1-1
+  status: outdated
+  summary: Terminal spreadsheet multitool for discovering and arranging data
+  licenses:
+    - GPL3
 - repo: manjaro_unstable
   subrepo: extra
   srcname: visidata
@@ -9,18 +57,19 @@
   summary: Terminal spreadsheet multitool for discovering and arranging data
   licenses:
     - GPL-3.0-only
-- repo: nix_stable_24_05
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
   srcname: visidata
+  binnames:
+    - visidata
   visiblename: visidata
-  version: 3.0.2
-  origversion: null
+  version: "1.0"
+  origversion: 1.0-1
   status: outdated
-  summary: Interactive terminal multitool for tabular data
   maintainers:
-    - 7c6f434c@mail.ru
-    - markus1189@gmail.com
-  licenses:
-    - GPL-3.0
+    - anja.kefala@gmail.com
+  categories:
+    - universe/misc
 - repo: alpine_edge
   subrepo: testing
   srcname: visidata
@@ -60,18 +109,6 @@
     - wenhepingalpine@sohu.com
   licenses:
     - GPL-3.0-or-later
-- repo: nix_stable_24_11
-  srcname: visidata
-  visiblename: visidata
-  version: 3.1.1
-  origversion: null
-  status: outdated
-  summary: Interactive terminal multitool for tabular data
-  maintainers:
-    - 7c6f434c@mail.ru
-    - markus1189@gmail.com
-  licenses:
-    - GPL-3.0
 - repo: alpine_edge
   subrepo: testing
   srcname: visidata
@@ -243,6 +280,18 @@
     - GPL-3.0-only
   categories:
     - Unspecified
+- repo: nix_stable_24_05
+  srcname: visidata
+  visiblename: visidata
+  version: 3.0.2
+  origversion: null
+  status: outdated
+  summary: Interactive terminal multitool for tabular data
+  maintainers:
+    - 7c6f434c@mail.ru
+    - markus1189@gmail.com
+  licenses:
+    - GPL-3.0
 - repo: fedora_40
   subrepo: updates
   srcname: visidata
@@ -258,18 +307,6 @@
     - GPL-3.0-only
   categories:
     - Unspecified
-- repo: nix_stable_25_05
-  srcname: visidata
-  visiblename: visidata
-  version: 3.1.1
-  origversion: null
-  status: outdated
-  summary: Interactive terminal multitool for tabular data
-  maintainers:
-    - 7c6f434c@mail.ru
-    - markus1189@gmail.com
-  licenses:
-    - GPL-3.0
 - repo: fedora_40
   subrepo: release
   srcname: visidata
@@ -316,21 +353,6 @@
   categories:
     - Unspecified
 - repo: fedora_42
-  subrepo: release
-  srcname: visidata
-  binnames:
-    - visidata
-    - python3-visidata
-  visiblename: visidata
-  version: 3.1.1
-  origversion: 3.1.1-2.fc42
-  status: legacy
-  summary: Terminal interface for exploring and arranging tabular data
-  licenses:
-    - GPL-3.0-only
-  categories:
-    - Unspecified
-- repo: fedora_42
   subrepo: updates
   srcname: visidata
   binnames:
@@ -340,6 +362,21 @@
   version: "3.3"
   origversion: 3.3-1.fc42
   status: outdated
+  summary: Terminal interface for exploring and arranging tabular data
+  licenses:
+    - GPL-3.0-only
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: release
+  srcname: visidata
+  binnames:
+    - visidata
+    - python3-visidata
+  visiblename: visidata
+  version: 3.1.1
+  origversion: 3.1.1-2.fc42
+  status: legacy
   summary: Terminal interface for exploring and arranging tabular data
   licenses:
     - GPL-3.0-only
@@ -418,42 +455,18 @@
   origversion: null
   status: newest
   summary: Terminal spreadsheet multitool for discovering and arranging data
-- repo: kali_rolling
-  subrepo: main
+- repo: nix_stable_25_05
   srcname: visidata
-  binnames:
-    - visidata
   visiblename: visidata
-  version: "3.4"
-  origversion: 3.4-1
+  version: 3.1.1
+  origversion: null
   status: outdated
+  summary: Interactive terminal multitool for tabular data
   maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - anja.kefala@gmail.com
-  categories:
-    - misc
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: visidata
-  binname: visidata
-  visiblename: visidata
-  version: "3.4"
-  origversion: 3.4-1
-  status: outdated
-  summary: Terminal spreadsheet multitool for discovering and arranging data
+    - 7c6f434c@mail.ru
+    - markus1189@gmail.com
   licenses:
-    - GPL-3.0-only
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: visidata
-  binname: visidata
-  visiblename: visidata
-  version: "3.4"
-  origversion: 3.4-1
-  status: outdated
-  summary: Terminal spreadsheet multitool for discovering and arranging data
-  licenses:
-    - GPL-3.0-only
+    - GPL-3.0
 - repo: nix_stable_25_11
   srcname: visidata
   visiblename: visidata
@@ -557,9 +570,9 @@
 - repo: pld
   srcname: visidata
   visiblename: visidata
-  version: "3.4"
-  origversion: 3.4-1
-  status: outdated
+  version: "3.5"
+  origversion: 3.5-1
+  status: newest
 - repo: pureos_amber
   subrepo: amber/main
   srcname: visidata
@@ -663,19 +676,6 @@
     - GPL-3.0-only
   categories:
     - office.viewers
-- repo: ubuntu_18_04
-  subrepo: bionic/universe
-  srcname: visidata
-  binnames:
-    - visidata
-  visiblename: visidata
-  version: "1.0"
-  origversion: 1.0-1
-  status: outdated
-  maintainers:
-    - anja.kefala@gmail.com
-  categories:
-    - universe/misc
 - repo: ubuntu_20_04
   subrepo: focal/universe
   srcname: visidata
