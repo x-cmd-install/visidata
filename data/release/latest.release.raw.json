@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 148748,
       "digest": "sha256:c961da54cac24134933d51c1864ab0f28d933da3a02f5edcb7a4b0164237d450",
-      "download_count": 4,
+      "download_count": 6,
       "created_at": "2026-10-28T18:43:05Z",
       "updated_at": "2026-10-28T18:43:05Z",
       "browser_download_url": "https://github.com/saulpw/visidata/releases/download/v3.5/man.md"
@@ -79,11 +79,11 @@
   "discussion_url": "https://github.com/saulpw/visidata/discussions/3271",
   "reactions": {
     "url": "https://api.github.com/repos/saulpw/visidata/releases/427053445/reactions",
-    "total_count": 7,
+    "total_count": 8,
     "+1": 3,
     "-1": 0,
     "laugh": 0,
-    "hooray": 1,
+    "hooray": 2,
     "confused": 0,
     "heart": 3,
     "rocket": 0,
