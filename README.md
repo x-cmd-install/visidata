@@ -14,11 +14,11 @@ x install visidata
 
 ## Code insight
 
-Total: **53,944** lines of code across **339** files in the top 5 languages.
+Total: **53,970** lines of code across **339** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 35,471 | 1,307 | 8,297 | 316 |
+| Python | 35,497 | 1,307 | 8,303 | 316 |
 | Svg | 11,417 | 3 | 120 | 3 |
 | Yaml | 1,364 | 0 | 2 | 2 |
 | ReStructuredText | 1,305 | 0 | 653 | 17 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.5` (2026-10-28)
-- **Last commit**: 2026-10-29
+- **Last commit**: 2026-11-11
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 9,457 · **Forks**: 377 · **Open issues**: 1,725 · **Contributors**: 128
+- **Stars**: 9,459 · **Forks**: 377 · **Open issues**: 1,726 · **Contributors**: 128
 
 ## Totals (cumulative)
 
-- **Releases**: 49 · **Merged PRs**: 883 · **Open PRs**: 3 · **Closed issues**: 1723 · **Open issues**: 2 · **Commits**: 8902
+- **Releases**: 49 · **Merged PRs**: 883 · **Open PRs**: 4 · **Closed issues**: 1724 · **Open issues**: 2 · **Commits**: 8903
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 1 | 26 | 3 | 2 | 1 | 106 |
-| last60d | 2026-09-11 | 1 | 30 | 3 | 6 | 1 | 140 |
-| 90d | 2026-08-12 | 1 | 43 | 3 | 19 | 1 | 157 |
-| last180d | 2026-05-14 | 2 | 87 | 3 | 74 | 1 | 271 |
-| 360d | 2025-11-15 | 2 | 178 | 3 | 128 | 1 | 660 |
-| last720d | 2024-11-20 | 4 | 282 | 3 | 235 | 1 | 1036 |
+| 30d | 2026-10-12 | 1 | 26 | 4 | 3 | 1 | 107 |
+| last60d | 2026-09-12 | 1 | 30 | 4 | 7 | 1 | 141 |
+| 90d | 2026-08-13 | 1 | 43 | 4 | 20 | 1 | 158 |
+| last180d | 2026-05-15 | 2 | 87 | 4 | 75 | 1 | 272 |
+| 360d | 2025-11-16 | 2 | 178 | 4 | 129 | 1 | 661 |
+| last720d | 2024-11-21 | 4 | 282 | 4 | 236 | 1 | 1037 |
 
 ## Release assets
 
@@ -98,4 +98,4 @@ Install metadata for visidata lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261110.yml` · 2026-11-10T09:10:31Z._
+_Snapshot: `data/card/261111.yml` · 2026-11-11T07:44:34Z._
