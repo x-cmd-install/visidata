@@ -1,25 +1,105 @@
-- repo: raspbian_testing
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: visidata
+  binnames:
+    - visidata
+  visiblename: visidata
+  version: 3.0.2
+  origversion: 3.0.2-1
+  status: outdated
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - anja.kefala@gmail.com
+  categories:
+    - devel
+- repo: raspbian_oldstable
   subrepo: main
   srcname: visidata
   binnames:
     - visidata
   visiblename: visidata
-  version: "3.4"
-  origversion: 3.4-1
+  version: "2.11"
+  origversion: 2.11-1
+  status: outdated
+  maintainers:
+    - anja.kefala@gmail.com
+  categories:
+    - misc
+- repo: fedora_40
+  subrepo: updates
+  srcname: visidata
+  binnames:
+    - visidata
+    - python3-visidata
+  visiblename: visidata
+  version: 3.1.1
+  origversion: 3.1.1-1.fc40
+  status: outdated
+  summary: Terminal interface for exploring and arranging tabular data
+  licenses:
+    - GPL-3.0-only
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: release
+  srcname: visidata
+  binnames:
+    - visidata
+    - python3-visidata
+  visiblename: visidata
+  version: 3.0.2
+  origversion: 3.0.2-2.fc40
+  status: legacy
+  summary: Terminal interface for exploring and arranging tabular data
+  licenses:
+    - GPL-3.0-only
+  categories:
+    - Unspecified
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: visidata
+  binnames:
+    - visidata
+  visiblename: visidata
+  version: 3.0.2
+  origversion: 3.0.2-1
   status: outdated
   maintainers:
     - debian-science-maintainers@lists.alioth.debian.org
     - anja.kefala@gmail.com
   categories:
     - misc
-- repo: slackbuilds
-  srcname: office/visidata
-  visiblename: office/visidata
-  version: "2.11"
-  origversion: null
+- repo: aur
+  srcname: visidata-git
+  binname: visidata-git
+  visiblename: visidata-git
+  version: 2.10.1.g987fd75f
+  origversion: 2.10.1.g987fd75f-2
+  status: rolling
+  summary: A console spreadsheet tool for discovering and arranging data
+  maintainers:
+    - earl@aur
+  licenses:
+    - GPLv3
+- repo: pld
+  srcname: visidata
+  visiblename: visidata
+  version: "3.5"
+  origversion: 3.5-1
+  status: newest
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: visidata
+  binnames:
+    - visidata
+  visiblename: visidata
+  version: 1.5.2
+  origversion: 1.5.2-1
   status: outdated
+  maintainers:
+    - anja.kefala@gmail.com
   categories:
-    - office
+    - devel
 - repo: alpine_edge
   subrepo: testing
   srcname: visidata
@@ -83,18 +163,18 @@
   summary: Terminal spreadsheet multitool for discovering and arranging data
   licenses:
     - GPL-3.0-only
-- repo: aur
-  srcname: visidata-git
-  binname: visidata-git
-  visiblename: visidata-git
-  version: 2.10.1.g987fd75f
-  origversion: 2.10.1.g987fd75f-2
-  status: rolling
-  summary: A console spreadsheet tool for discovering and arranging data
+- repo: nix_stable_25_11
+  srcname: visidata
+  visiblename: visidata
+  version: "3.3"
+  origversion: null
+  status: outdated
+  summary: Interactive terminal multitool for tabular data
   maintainers:
-    - earl@aur
+    - 7c6f434c@mail.ru
+    - markus1189@gmail.com
   licenses:
-    - GPLv3
+    - GPL-3.0
 - repo: debian_11
   subrepo: bullseye/main
   srcname: visidata
@@ -230,36 +310,19 @@
     - GPL-3.0-only
   categories:
     - Unspecified
-- repo: fedora_40
-  subrepo: updates
+- repo: pureos_byzantium
+  subrepo: byzantium/main
   srcname: visidata
   binnames:
     - visidata
-    - python3-visidata
   visiblename: visidata
-  version: 3.1.1
-  origversion: 3.1.1-1.fc40
+  version: 2.2.1
+  origversion: 2.2.1-1
   status: outdated
-  summary: Terminal interface for exploring and arranging tabular data
-  licenses:
-    - GPL-3.0-only
+  maintainers:
+    - anja.kefala@gmail.com
   categories:
-    - Unspecified
-- repo: fedora_40
-  subrepo: release
-  srcname: visidata
-  binnames:
-    - visidata
-    - python3-visidata
-  visiblename: visidata
-  version: 3.0.2
-  origversion: 3.0.2-2.fc40
-  status: legacy
-  summary: Terminal interface for exploring and arranging tabular data
-  licenses:
-    - GPL-3.0-only
-  categories:
-    - Unspecified
+    - devel
 - repo: fedora_41
   subrepo: release
   srcname: visidata
@@ -290,21 +353,19 @@
     - GPL-3.0-only
   categories:
     - Unspecified
-- repo: fedora_42
-  subrepo: updates
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
   srcname: visidata
   binnames:
     - visidata
-    - python3-visidata
   visiblename: visidata
-  version: "3.3"
-  origversion: 3.3-1.fc42
+  version: 2.2.1
+  origversion: 2.2.1-1
   status: outdated
-  summary: Terminal interface for exploring and arranging tabular data
-  licenses:
-    - GPL-3.0-only
+  maintainers:
+    - anja.kefala@gmail.com
   categories:
-    - Unspecified
+    - universe/misc
 - repo: fedora_42
   subrepo: release
   srcname: visidata
@@ -315,6 +376,21 @@
   version: 3.1.1
   origversion: 3.1.1-2.fc42
   status: legacy
+  summary: Terminal interface for exploring and arranging tabular data
+  licenses:
+    - GPL-3.0-only
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: updates
+  srcname: visidata
+  binnames:
+    - visidata
+    - python3-visidata
+  visiblename: visidata
+  version: "3.3"
+  origversion: 3.3-1.fc42
+  status: outdated
   summary: Terminal interface for exploring and arranging tabular data
   licenses:
     - GPL-3.0-only
@@ -476,18 +552,6 @@
     - markus1189@gmail.com
   licenses:
     - GPL-3.0
-- repo: nix_stable_25_11
-  srcname: visidata
-  visiblename: visidata
-  version: "3.3"
-  origversion: null
-  status: outdated
-  summary: Interactive terminal multitool for tabular data
-  maintainers:
-    - 7c6f434c@mail.ru
-    - markus1189@gmail.com
-  licenses:
-    - GPL-3.0
 - repo: nix_stable_26_05
   srcname: visidata
   visiblename: visidata
@@ -562,79 +626,6 @@
     - anja.kefala@gmail.com
   categories:
     - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: visidata
-  binnames:
-    - visidata
-  visiblename: visidata
-  version: 3.0.2
-  origversion: 3.0.2-1
-  status: outdated
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - anja.kefala@gmail.com
-  categories:
-    - misc
-- repo: pld
-  srcname: visidata
-  visiblename: visidata
-  version: "3.5"
-  origversion: 3.5-1
-  status: newest
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: visidata
-  binnames:
-    - visidata
-  visiblename: visidata
-  version: 1.5.2
-  origversion: 1.5.2-1
-  status: outdated
-  maintainers:
-    - anja.kefala@gmail.com
-  categories:
-    - devel
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: visidata
-  binnames:
-    - visidata
-  visiblename: visidata
-  version: 2.2.1
-  origversion: 2.2.1-1
-  status: outdated
-  maintainers:
-    - anja.kefala@gmail.com
-  categories:
-    - devel
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: visidata
-  binnames:
-    - visidata
-  visiblename: visidata
-  version: 3.0.2
-  origversion: 3.0.2-1
-  status: outdated
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - anja.kefala@gmail.com
-  categories:
-    - devel
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: visidata
-  binnames:
-    - visidata
-  visiblename: visidata
-  version: "2.11"
-  origversion: 2.11-1
-  status: outdated
-  maintainers:
-    - anja.kefala@gmail.com
-  categories:
-    - misc
 - repo: raspbian_stable
   subrepo: main
   srcname: visidata
@@ -649,6 +640,28 @@
     - anja.kefala@gmail.com
   categories:
     - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: visidata
+  binnames:
+    - visidata
+  visiblename: visidata
+  version: "3.4"
+  origversion: 3.4-1
+  status: outdated
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - anja.kefala@gmail.com
+  categories:
+    - misc
+- repo: slackbuilds
+  srcname: office/visidata
+  visiblename: office/visidata
+  version: "2.11"
+  origversion: null
+  status: outdated
+  categories:
+    - office
 - repo: solus
   srcname: visidata
   binname: visidata
@@ -684,19 +697,6 @@
   visiblename: visidata
   version: 1.5.2
   origversion: 1.5.2-1
-  status: outdated
-  maintainers:
-    - anja.kefala@gmail.com
-  categories:
-    - universe/misc
-- repo: ubuntu_22_04
-  subrepo: jammy/universe
-  srcname: visidata
-  binnames:
-    - visidata
-  visiblename: visidata
-  version: 2.2.1
-  origversion: 2.2.1-1
   status: outdated
   maintainers:
     - anja.kefala@gmail.com
