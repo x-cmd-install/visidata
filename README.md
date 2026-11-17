@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 9,473 · **Forks**: 378 · **Open issues**: 1,728 · **Contributors**: 128
+- **Stars**: 9,474 · **Forks**: 377 · **Open issues**: 1,728 · **Contributors**: 128
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 1 | 18 | 4 | 2 | 3 | 37 |
-| last60d | 2026-09-17 | 1 | 28 | 4 | 7 | 3 | 139 |
-| 90d | 2026-08-18 | 1 | 37 | 4 | 19 | 3 | 154 |
-| last180d | 2026-05-20 | 2 | 83 | 4 | 70 | 3 | 253 |
-| 360d | 2025-11-21 | 2 | 177 | 4 | 128 | 3 | 658 |
-| last720d | 2024-11-26 | 4 | 282 | 4 | 236 | 3 | 1036 |
+| 30d | 2026-10-18 | 1 | 12 | 4 | 2 | 3 | 37 |
+| last60d | 2026-09-18 | 1 | 28 | 4 | 7 | 3 | 139 |
+| 90d | 2026-08-19 | 1 | 37 | 4 | 19 | 3 | 154 |
+| last180d | 2026-05-21 | 2 | 83 | 4 | 70 | 3 | 253 |
+| 360d | 2025-11-22 | 2 | 176 | 4 | 128 | 3 | 658 |
+| last720d | 2024-11-27 | 4 | 282 | 4 | 236 | 3 | 1036 |
 
 ## Release assets
 
@@ -73,7 +73,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **63** distros on [repology.org](https://repology.org/project/visidata). **9** are ✅ on the latest upstream release, **50** are ⚠️ on an older version.
+Reported by **64** distros on [repology.org](https://repology.org/project/visidata). **9** are ✅ on the latest upstream release, **51** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -98,4 +98,4 @@ Install metadata for visidata lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T08:43:58Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T09:33:53Z._
