@@ -1,18 +1,54 @@
-- repo: devuan_4_0
-  subrepo: chimaera/main
+- repo: gnuguix
+  srcname: visidata
+  binname: visidata
+  visiblename: visidata
+  version: "3.4"
+  origversion: null
+  status: outdated
+  summary: Terminal spreadsheet multitool for discovering and arranging data
+- repo: pureos_landing
+  subrepo: landing/main
   srcname: visidata
   binnames:
     - visidata
   visiblename: visidata
-  version: 2.2.1
-  origversion: 2.2.1-1
+  version: 3.0.2
+  origversion: 3.0.2-1
+  status: outdated
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - anja.kefala@gmail.com
+  categories:
+    - devel
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: visidata
+  binnames:
+    - visidata
+  visiblename: visidata
+  version: "2.11"
+  origversion: 2.11-1
   status: outdated
   maintainers:
     - anja.kefala@gmail.com
   categories:
     - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
+- repo: raspbian_stable
+  subrepo: main
+  srcname: visidata
+  binnames:
+    - visidata
+  visiblename: visidata
+  version: 3.0.2
+  origversion: 3.0.2-1
+  status: outdated
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - anja.kefala@gmail.com
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
   srcname: visidata
   binnames:
     - visidata
@@ -190,6 +226,33 @@
     - anja.kefala@gmail.com
   categories:
     - devel
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: visidata
+  binnames:
+    - visidata
+  visiblename: visidata
+  version: 2.2.1
+  origversion: 2.2.1-1
+  status: outdated
+  maintainers:
+    - anja.kefala@gmail.com
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: visidata
+  binnames:
+    - visidata
+  visiblename: visidata
+  version: "3.4"
+  origversion: 3.4-1
+  status: outdated
+  maintainers:
+    - debian-science-maintainers@lists.alioth.debian.org
+    - anja.kefala@gmail.com
+  categories:
+    - misc
 - repo: fedora_39
   subrepo: release
   srcname: visidata
@@ -206,21 +269,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: updates
-  srcname: visidata
-  binnames:
-    - visidata
-    - python3-visidata
-  visiblename: visidata
-  version: 3.1.1
-  origversion: 3.1.1-1.fc40
-  status: outdated
-  summary: Terminal interface for exploring and arranging tabular data
-  licenses:
-    - GPL-3.0-only
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: release
   srcname: visidata
   binnames:
@@ -230,6 +278,21 @@
   version: 3.0.2
   origversion: 3.0.2-2.fc40
   status: legacy
+  summary: Terminal interface for exploring and arranging tabular data
+  licenses:
+    - GPL-3.0-only
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: updates
+  srcname: visidata
+  binnames:
+    - visidata
+    - python3-visidata
+  visiblename: visidata
+  version: 3.1.1
+  origversion: 3.1.1-1.fc40
+  status: outdated
   summary: Terminal interface for exploring and arranging tabular data
   licenses:
     - GPL-3.0-only
@@ -368,14 +431,6 @@
     - GPL-3
   categories:
     - app-office
-- repo: gnuguix
-  srcname: visidata
-  binname: visidata
-  visiblename: visidata
-  version: "3.4"
-  origversion: null
-  status: outdated
-  summary: Terminal spreadsheet multitool for discovering and arranging data
 - repo: homebrew
   srcname: visidata
   visiblename: visidata
@@ -402,9 +457,9 @@
   srcname: visidata
   binname: visidata
   visiblename: visidata
-  version: "3.4"
-  origversion: 3.4-1
-  status: outdated
+  version: "3.5"
+  origversion: 3.5-1
+  status: newest
   summary: Terminal spreadsheet multitool for discovering and arranging data
   licenses:
     - GPL-3.0-only
@@ -539,7 +594,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: visidata
   binnames:
     - visidata
@@ -553,7 +608,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: visidata
   binnames:
     - visidata
@@ -598,61 +653,6 @@
     - anja.kefala@gmail.com
   categories:
     - devel
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: visidata
-  binnames:
-    - visidata
-  visiblename: visidata
-  version: 3.0.2
-  origversion: 3.0.2-1
-  status: outdated
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - anja.kefala@gmail.com
-  categories:
-    - devel
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: visidata
-  binnames:
-    - visidata
-  visiblename: visidata
-  version: "2.11"
-  origversion: 2.11-1
-  status: outdated
-  maintainers:
-    - anja.kefala@gmail.com
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: visidata
-  binnames:
-    - visidata
-  visiblename: visidata
-  version: 3.0.2
-  origversion: 3.0.2-1
-  status: outdated
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - anja.kefala@gmail.com
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: visidata
-  binnames:
-    - visidata
-  visiblename: visidata
-  version: "3.4"
-  origversion: 3.4-1
-  status: outdated
-  maintainers:
-    - debian-science-maintainers@lists.alioth.debian.org
-    - anja.kefala@gmail.com
-  categories:
-    - misc
 - repo: solus
   srcname: visidata
   binname: visidata
