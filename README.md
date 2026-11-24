@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 1 | 0 | 3 | 2 | 3 | 0 |
-| last60d | 2026-09-24 | 1 | 27 | 4 | 7 | 3 | 0 |
-| 90d | 2026-08-25 | 1 | 35 | 4 | 17 | 3 | 0 |
-| last180d | 2026-05-27 | 2 | 72 | 4 | 65 | 3 | 0 |
-| 360d | 2025-11-28 | 2 | 174 | 4 | 128 | 3 | 0 |
-| last720d | 2024-12-03 | 4 | 276 | 4 | 230 | 3 | 1029 |
+| 30d | 2026-10-25 | 1 | 0 | 3 | 1 | 3 | 1 |
+| last60d | 2026-09-25 | 1 | 27 | 4 | 7 | 3 | 128 |
+| 90d | 2026-08-26 | 1 | 34 | 4 | 17 | 3 | 149 |
+| last180d | 2026-05-28 | 2 | 71 | 4 | 63 | 3 | 232 |
+| 360d | 2025-11-29 | 2 | 174 | 4 | 128 | 3 | 638 |
+| last720d | 2024-12-04 | 4 | 276 | 4 | 229 | 3 | 1029 |
 
 ## Release assets
 
@@ -73,7 +73,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **63** distros on [repology.org](https://repology.org/project/visidata). **9** are ✅ on the latest upstream release, **50** are ⚠️ on an older version.
+Reported by **63** distros on [repology.org](https://repology.org/project/visidata). **10** are ✅ on the latest upstream release, **49** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -98,4 +98,4 @@ Install metadata for visidata lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T11:08:12Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T11:17:25Z._
