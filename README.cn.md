@@ -48,7 +48,7 @@ x install visidata
 
 ## 流行度
 
-- **Star**: 9,481 · **Fork**: 379 · **开放 issue**: 1,728 · **贡献者**: 128
+- **Star**: 9,482 · **Fork**: 379 · **开放 issue**: 1,728 · **贡献者**: 128
 
 ## 累计统计
 
@@ -58,36 +58,18 @@ x install visidata
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 1 | 0 | 3 | 1 | 3 | 1 |
-| last60d | 2026-09-25 | 1 | 27 | 4 | 7 | 3 | 128 |
-| 90d | 2026-08-26 | 1 | 34 | 4 | 17 | 3 | 149 |
-| last180d | 2026-05-28 | 2 | 71 | 4 | 63 | 3 | 232 |
-| 360d | 2025-11-29 | 2 | 174 | 4 | 128 | 3 | 638 |
-| last720d | 2024-12-04 | 4 | 276 | 4 | 229 | 3 | 1029 |
+| 30d | 2026-10-26 | 1 | 0 | 2 | 1 | 3 | 1 |
+| last60d | 2026-09-26 | 1 | 27 | 4 | 7 | 3 | 128 |
+| 90d | 2026-08-27 | 1 | 33 | 4 | 16 | 3 | 149 |
+| last180d | 2026-05-29 | 2 | 67 | 4 | 62 | 3 | 232 |
+| 360d | 2025-11-30 | 2 | 174 | 4 | 128 | 3 | 638 |
+| last720d | 2024-12-05 | 4 | 276 | 4 | 229 | 3 | 1029 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
 | [man.md](https://github.com/saulpw/visidata/releases/download/v3.5/man.md) | 145.3 KiB | `other` |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/visidata) 上共有 **63** 个发行版报告此项目。**10** 个 ✅ 已是最新上游版本，**49** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `3.4` | ⚠️ outdated |
-| Debian 14 | `3.4` | ⚠️ outdated |
-| Debian 13 | `3.0.2` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `3.0.2` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `3.0.2` | ⚠️ outdated |
-| Arch | `3.5` | ✅ latest |
-| Homebrew | `3.5` | ✅ latest |
-| Fedora rawhide | `3.3` | ⚠️ outdated |
-| Nix unstable | `3.5` | ✅ latest |
-| Void | `3.3` | ⚠️ outdated |
-| Alpine edge | `3.3` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -98,4 +80,4 @@ visidata 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261124.yml` · 2026-11-24T11:17:26Z._
+_数据快照: `data/card/261125.yml` · 2026-11-25T10:29:52Z._
