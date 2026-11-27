@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 9,484 · **Forks**: 379 · **Open issues**: 1,729 · **Contributors**: 128
+- **Stars**: 9,486 · **Forks**: 379 · **Open issues**: 1,729 · **Contributors**: 128
 
 ## Totals (cumulative)
 
@@ -58,18 +58,36 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 1 | 0 | 2 | 1 | 4 | 1 |
-| last60d | 2026-09-27 | 1 | 27 | 4 | 7 | 4 | 128 |
-| 90d | 2026-08-28 | 1 | 32 | 4 | 13 | 4 | 149 |
-| last180d | 2026-05-30 | 2 | 66 | 4 | 62 | 4 | 232 |
-| 360d | 2025-12-01 | 2 | 174 | 4 | 128 | 4 | 638 |
-| last720d | 2024-12-06 | 4 | 276 | 4 | 228 | 4 | 1029 |
+| 30d | 2026-10-28 | 1 | 0 | 2 | 1 | 4 | 1 |
+| last60d | 2026-09-28 | 1 | 27 | 4 | 7 | 4 | 128 |
+| 90d | 2026-08-29 | 1 | 32 | 4 | 13 | 4 | 149 |
+| last180d | 2026-05-31 | 2 | 64 | 4 | 61 | 4 | 232 |
+| 360d | 2025-12-02 | 2 | 174 | 4 | 128 | 4 | 638 |
+| last720d | 2024-12-07 | 4 | 274 | 4 | 227 | 4 | 1029 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
 | [man.md](https://github.com/saulpw/visidata/releases/download/v3.5/man.md) | 145.3 KiB | `other` |
+
+## Distribution status
+
+Reported by **62** distros on [repology.org](https://repology.org/project/visidata). **10** are ✅ on the latest upstream release, **48** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `3.4` | ⚠️ outdated |
+| Debian 14 | `3.4` | ⚠️ outdated |
+| Debian 13 | `3.0.2` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `3.0.2` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `3.0.2` | ⚠️ outdated |
+| Arch | `3.5` | ✅ latest |
+| Homebrew | `3.5` | ✅ latest |
+| Fedora rawhide | `3.3` | ⚠️ outdated |
+| Nix unstable | `3.5` | ✅ latest |
+| Void | `3.3` | ⚠️ outdated |
+| Alpine edge | `3.3` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -80,4 +98,4 @@ Install metadata for visidata lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261126.yml` · 2026-11-26T10:25:12Z._
+_Snapshot: `data/card/261127.yml` · 2026-11-27T10:10:12Z._
