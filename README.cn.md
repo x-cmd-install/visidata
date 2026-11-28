@@ -58,36 +58,18 @@ x install visidata
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 1 | 0 | 2 | 1 | 4 | 1 |
-| last60d | 2026-09-28 | 1 | 27 | 4 | 7 | 4 | 128 |
-| 90d | 2026-08-29 | 1 | 32 | 4 | 13 | 4 | 149 |
-| last180d | 2026-05-31 | 2 | 64 | 4 | 61 | 4 | 232 |
-| 360d | 2025-12-02 | 2 | 174 | 4 | 128 | 4 | 638 |
-| last720d | 2024-12-07 | 4 | 274 | 4 | 227 | 4 | 1029 |
+| 30d | 2026-10-29 | 0 | 0 | 2 | 1 | 4 | 1 |
+| last60d | 2026-09-29 | 1 | 27 | 4 | 7 | 4 | 128 |
+| 90d | 2026-08-30 | 1 | 32 | 4 | 13 | 4 | 149 |
+| last180d | 2026-06-01 | 2 | 64 | 4 | 61 | 4 | 232 |
+| 360d | 2025-12-03 | 2 | 174 | 4 | 128 | 4 | 638 |
+| last720d | 2024-12-08 | 4 | 274 | 4 | 227 | 4 | 1029 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
 | [man.md](https://github.com/saulpw/visidata/releases/download/v3.5/man.md) | 145.3 KiB | `other` |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/visidata) 上共有 **62** 个发行版报告此项目。**10** 个 ✅ 已是最新上游版本，**48** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `3.4` | ⚠️ outdated |
-| Debian 14 | `3.4` | ⚠️ outdated |
-| Debian 13 | `3.0.2` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `3.0.2` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `3.0.2` | ⚠️ outdated |
-| Arch | `3.5` | ✅ latest |
-| Homebrew | `3.5` | ✅ latest |
-| Fedora rawhide | `3.3` | ⚠️ outdated |
-| Nix unstable | `3.5` | ✅ latest |
-| Void | `3.3` | ⚠️ outdated |
-| Alpine edge | `3.3` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -98,4 +80,4 @@ visidata 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261127.yml` · 2026-11-27T10:10:13Z._
+_数据快照: `data/card/261128.yml` · 2026-11-28T08:32:25Z._
