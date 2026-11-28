@@ -7,7 +7,7 @@ about:
   latestVersion: "v3.5"
   latestRelease: "v3.5"
   latestPrerelease: "v2.-4.0"
-  collectedAt: 2026-11-27T10:10:02Z
+  collectedAt: 2026-11-28T08:31:58Z
 timeline:
   created: 2016-10-27
   lastCommit: 2026-11-11
@@ -34,15 +34,15 @@ language:
 totalBytes: 1767843
 recent:
   last30d:
-    since: 2026-10-28
-    release: 1
+    since: 2026-10-29
+    release: 0
     mergedPR: 0
     openPR: 2
     closedIssue: 1
     openIssue: 4
     commit: 1
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 1
     mergedPR: 27
     openPR: 4
@@ -50,7 +50,7 @@ recent:
     openIssue: 4
     commit: 128
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 1
     mergedPR: 32
     openPR: 4
@@ -58,7 +58,7 @@ recent:
     openIssue: 4
     commit: 149
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 2
     mergedPR: 64
     openPR: 4
@@ -66,7 +66,7 @@ recent:
     openIssue: 4
     commit: 232
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 2
     mergedPR: 174
     openPR: 4
@@ -74,7 +74,7 @@ recent:
     openIssue: 4
     commit: 638
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 4
     mergedPR: 274
     openPR: 4
@@ -90,7 +90,7 @@ total:
   commit: 8903
 ---
 path: /home/runner/.x-repo/github.com/saulpw/visidata
-collectedAt: 2026-11-27T10:10:06Z
+collectedAt: 2026-11-28T08:32:03Z
 loc:
   Python:
     code: 35497
